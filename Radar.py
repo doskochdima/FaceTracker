@@ -9,7 +9,7 @@ offset = 50
 drawPointX = screenX / 2
 drawPointY = screenY - offset
 
-pygame.init()
+pygame.init()  
 screen = pygame.display.set_mode([screenX, screenY])
 pygame.display.set_caption("Radar")
 font = pygame.font.Font(None, 20)
